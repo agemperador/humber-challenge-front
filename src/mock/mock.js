@@ -1,0 +1,82 @@
+export const responseMock = {
+    "total": 1449891,
+    "civs_list": [{
+        "wins": 10445,
+        "name": "Armenians",
+        "total": 21403, "left_image": "armenians.png", "right_image": ""
+    },
+    {
+        "wins": 20361,
+        "name": "Aztecs",
+        "total": 42837,
+        "left_image": "aztecs.png",
+        "right_image": ""
+    },
+    {
+        "wins": 18675,
+        "name": "Bengalis",
+        "total": 36745,
+        "left_image": "bengalis.png",
+        "right_image": ""
+    },
+    {
+        "wins": 26287,
+        "name": "Berbers",
+        "total": 51678,
+        "left_image": "berbers.png",
+        "right_image": ""
+    },
+    {
+        "wins": 31005,
+        "name": "Bohemians",
+        "total": 60635,
+        "left_image": "bohemians.png",
+        "right_image": ""
+    },
+    {
+        "wins": 40676,
+        "name": "Britons",
+        "total": 84040,
+        "left_image": "britons.png",
+        "right_image": ""
+    },
+    { "wins": 24010, "name": "Bulgarians", "total": 47745, "left_image": "bulgarians.png", "right_image": "" },
+    { "wins": 27280, "name": "Burgundians", "total": 58199, "left_image": "burgundians.png", "right_image": "" },
+    { "wins": 14445, "name": "Burmese", "total": 29480, "left_image": "burmese.png", "right_image": "" },
+    { "wins": 35706, "name": "Byzantines", "total": 73490, "left_image": "byzantines.png", "right_image": "" },
+    { "wins": 27813, "name": "Celts", "total": 53822, "left_image": "celts.png", "right_image": "" },
+    { "wins": 28372, "name": "Chinese", "total": 56668, "left_image": "chinese.png", "right_image": "" },
+    { "wins": 32751, "name": "Cumans", "total": 64756, "left_image": "cumans.png", "right_image": "" },
+    { "wins": 14939, "name": "Dravidians", "total": 30802, "left_image": "dravidians.png", "right_image": "" },
+    { "wins": 41989, "name": "Ethiopians", "total": 81482, "left_image": "ethiopians.png", "right_image": "" },
+    { "wins": 71990, "name": "Franks", "total": 140201, "left_image": "franks.png", "right_image": "" },
+    { "wins": 27710, "name": "Georgians", "total": 54227, "left_image": "georgians.png", "right_image": "" },
+    { "wins": 31900, "name": "Goths", "total": 63338, "left_image": "goths.png", "right_image": "" },
+    {"wins": 18392, "name": "Gurjaras", "total": 39023, "left_image": "gurjaras.png", "right_image": ""},
+    { "wins": 37498, "name": "Hindustanis", "total": 70423, "left_image": "hindustanis.png", "right_image": "" },
+    { "wins": 51413, "name": "Huns", "total": 95881, "left_image": "huns.png", "right_image": "" },
+    { "wins": 22872, "name": "Incas", "total": 44575, "left_image": "incas.png", "right_image": "" },
+    { "wins": 22849, "name": "Italians", "total": 45807, "left_image": "italians.png", "right_image": "" },
+    { "wins": 24110, "name": "Japanese", "total": 49215, "left_image": "japanese.png", "right_image": "" },
+    { "wins": 48641, "name": "Khmer", "total": 96324, "left_image": "khmer.png", "right_image": "" },
+    { "wins": 21163, "name": "Koreans", "total": 42573, "left_image": "koreans.png", "right_image": "" },
+    { "wins": 37842, "name": "Lithuanians", "total": 74735, "left_image": "lithuanians.png", "right_image": "" },
+    { "wins": 52283, "name": "Magyars", "total": 102130, "left_image": "magyars.png", "right_image": "" },
+    { "wins": 24642, "name": "Malay", "total": 46929, "left_image": "malay.png", "right_image": "" },
+    { "wins": 25103, "name": "Malians", "total": 48432, "left_image": "malians.png", "right_image": "" },
+    { "wins": 29591, "name": "Mayans", "total": 60114, "left_image": "mayans.png", "right_image": "" },
+    { "wins": 93559, "name": "Mongols", "total": 181390, "left_image": "mongols.png", "right_image": "" },
+    { "wins": 53173, "name": "Persians", "total": 101388, "left_image": "persians.png", "right_image": "" },
+    { "wins": 27535, "name": "Poles", "total": 57329, "left_image": "poles.png", "right_image": "" },
+    { "wins": 32051, "name": "Portuguese", "total": 64800, "left_image": "portuguese.png", "right_image": "" },
+    { "wins": 20670, "name": "Romans", "total": 38930, "left_image": "romans.png", "right_image": "" },
+    { "wins": 27728, "name": "Saracens", "total": 55666, "left_image": "saracens.png", "right_image": "" },
+    { "wins": 31163, "name": "Sicilians", "total": 59747, "left_image": "sicilians.png", "right_image": "" },
+    { "wins": 20872, "name": "Slavs", "total": 41426, "left_image": "slavs.png", "right_image": "" },
+    { "wins": 49273, "name": "Spanish", "total": 95958, "left_image": "spanish.png", "right_image": "" },
+    { "wins": 21490, "name": "Tatars", "total": 44341, "left_image": "tatars.png", "right_image": "" },
+    { "wins": 37739, "name": "Teutons", "total": 74150, "left_image": "teutons.png", "right_image": "" },
+    { "wins": 35441, "name": "Turks", "total": 68992, "left_image": "turks.png", "right_image": "" },
+    { "wins": 33657, "name": "Vietnamese", "total": 69595, "left_image": "vietnamese.png", "right_image": "" },
+    { "wins": 22787, "name": "Vikings", "total": 43769, "left_image": "vikings.png", "right_image": "" }]
+}
