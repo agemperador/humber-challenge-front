@@ -19,12 +19,15 @@ function App() {
           {
             loading ?
               <h1>Cargando</h1>
-            : error ?
-              <h1>Error</h1>  
-            : data?.length ?
-                    <SearchBar civilizaciones={data} setCivilizacion={setCivilizacion}/>
-              :'No se pudieron cargar los datos'
+            : error ? <h3>falló la carga de datos desde la api, se estan usando los datos cargados en un mock</h3>  :''
           }
+        </Grid2>
+        <Grid2 display={"flex"} size={"grow"} justifyContent={"center"}>
+          {
+              data?.length ?
+                      <SearchBar civilizaciones={data} setCivilizacion={setCivilizacion}/>
+                :'No se pudieron cargar los datos'
+            }
         </Grid2>
         {civilizacion?
         <Grid2 size={12} >

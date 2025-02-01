@@ -12,13 +12,13 @@ const useFetchData = (url) =>{
     const fetchData = async ()=>{
         try{
             console.log("API_URL "+API_URL);
-            axios.get(API_URL, { mode: "cors" })
-                    .then(response =>{ 
-                        console.log(response.data); 
-                        setData(response.civs_list)
-                        return response
-                    })
-                    .catch(error => console.error("Error en la petición:", error));
+            const response =axios.get(API_URL, { mode: "cors" })
+            if (response.civs_list){
+                setData(response.civs_list)
+            } else {
+                setData(responseMock.civs_list)    
+                setError(true)
+            }
         } catch(err){
             setData(responseMock.civs_list)
             setError(true)
