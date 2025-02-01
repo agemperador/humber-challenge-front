@@ -12,7 +12,7 @@ const useFetchData = (url) =>{
     const fetchData = async ()=>{
         try{
             console.log("API_URL "+API_URL);
-            axios.get('/api/v1/civ_win_rates/')
+            axios.get(API_URL)
                     .then(response =>{ 
                         console.log(response.data); 
                         setData(response.civs_list)
