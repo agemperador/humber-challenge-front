@@ -1,5 +1,4 @@
 import { Box, Grid2, Typography } from '@mui/material';
-import './App.styles.jsx'
 import useFetchData from './hooks/useFetchData.js'
 import SearchBar from './components/searchbar/searchbar.jsx';
 import { useState } from 'react';
