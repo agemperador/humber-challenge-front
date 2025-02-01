@@ -1,0 +1,5 @@
+[[redirects]]
+from = "/api/civ_win_rates"
+to = "https://www.aoepulse.com/api/v1/civ_win_rates/"
+status = 200
+force = true

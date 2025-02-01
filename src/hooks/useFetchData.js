@@ -12,7 +12,7 @@ const useFetchData = (url) =>{
     const fetchData = async ()=>{
         try{
             console.log("API_URL "+API_URL);
-            axios.get(API_URL)
+            axios.get(API_URL, { mode: "cors" })
                     .then(response =>{ 
                         console.log(response.data); 
                         setData(response.civs_list)
